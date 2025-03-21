@@ -1,9 +1,13 @@
-import java.text.NumberFormat;
-
-public class Test {
+import java.util.Scanner;
+public class Test{
     public static void main(String[] args){
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
-        String result = currency.format(3456789);
-        System.out.println(result);
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("x=");
+        int x = scanner.nextInt();
+        System.out.print("y=");
+        int y = scanner.nextInt();
+        System.out.print("z=");
+        int z = scanner.nextInt();
     }
 }
