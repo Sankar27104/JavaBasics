@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringReverse {
+public class StringReverse1 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         String A = sc.next().toLowerCase();
