@@ -14,7 +14,7 @@ public class ArithmeticOperators {
         System.out.println("2*5="+value);
 
         value=value/2;
-        //value is now 2
+        //value is now 5
         System.out.println("10/2="+value);
 
         value=value%2;
